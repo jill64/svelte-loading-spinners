@@ -15,7 +15,9 @@
 		"name": "jill64"
 	},
 	"keywords": [
-		"svelte"
+		"svelte",
+		"loading",
+		"spinner"
 	],
 	"scripts": {
 		"dev": "vite dev",
