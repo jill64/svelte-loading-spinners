@@ -1,23 +1,31 @@
 {
 	"name": "@jill64/svelte-loading-spinners",
-	"version": "0.3.5",
+	"version": "0.3.6",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/schum123/svelte-loading-spinners.git"
+		"url": "git+https://github.com/jill64/svelte-loading-spinners.git"
 	},
 	"bugs": {
-		"url": "https://github.com/schum123/svelte-loading-spinners/issues"
+		"url": "https://github.com/jill64/svelte-loading-spinners/issues"
 	},
-	"homepage": "https://github.com/schum123/svelte-loading-spinners#readme",
+	"homepage": "https://github.com/jill64/svelte-loading-spinners#readme",
 	"description": "Loading spinners using the svelte framework.",
 	"license": "MIT",
-	"author": "Eric Schumertl",
+	"author": {
+		"name": "jill64"
+	},
 	"keywords": [
-		"svelte"
+		"svelte",
+		"loading",
+		"spinner"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "svelte-kit sync && svelte-package && npm run patch",
+		"prepack": "npm run build",
 		"patch": "npx tsx scripts/patch-package.ts",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
