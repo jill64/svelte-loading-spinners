@@ -1,3 +1,17 @@
+<!----- BEGIN GHOST DOCS HEADER ----->
+
+# @jill64/svelte-loading-spinners
+
+
+<!----- BEGIN GHOST DOCS BADGES ----->
+<a href="https://npmjs.com/package/@jill64/svelte-loading-spinners"><img src="https://img.shields.io/npm/v/@jill64/svelte-loading-spinners" alt="npm-version" /></a> <a href="https://npmjs.com/package/@jill64/svelte-loading-spinners"><img src="https://img.shields.io/npm/l/@jill64/svelte-loading-spinners" alt="npm-license" /></a> <a href="https://npmjs.com/package/@jill64/svelte-loading-spinners"><img src="https://img.shields.io/npm/dm/@jill64/svelte-loading-spinners" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/@jill64/svelte-loading-spinners"><img src="https://img.shields.io/bundlephobia/min/@jill64/svelte-loading-spinners" alt="npm-min-size" /></a>
+<!----- END GHOST DOCS BADGES ----->
+
+
+Loading spinners using the svelte framework.
+
+<!----- END GHOST DOCS HEADER ----->
+
 # svelte-loading-spinners
 
 > collection of loading spinners with Svelte.js
@@ -73,3 +87,12 @@ Notes:
 List of all spinner: [Demo](https://schum123.github.io/svelte-loading-spinners/)
 
 ## Development Setup
+
+
+<!----- BEGIN GHOST DOCS FOOTER ----->
+
+## License
+
+[MIT](LICENSE)
+
+<!----- END GHOST DOCS FOOTER ----->
