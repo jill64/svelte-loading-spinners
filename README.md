@@ -2,11 +2,11 @@
 
 # @jill64/sve-loading-spinners
 
-
 <!----- BEGIN GHOST DOCS BADGES ----->
-<a href="https://npmjs.com/package/@jill64/sve-loading-spinners"><img src="https://img.shields.io/npm/v/@jill64/sve-loading-spinners" alt="npm-version" /></a> <a href="https://npmjs.com/package/@jill64/sve-loading-spinners"><img src="https://img.shields.io/npm/l/@jill64/sve-loading-spinners" alt="npm-license" /></a> <a href="https://npmjs.com/package/@jill64/sve-loading-spinners"><img src="https://img.shields.io/npm/dm/@jill64/sve-loading-spinners" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/@jill64/sve-loading-spinners"><img src="https://img.shields.io/bundlephobia/min/@jill64/sve-loading-spinners" alt="npm-min-size" /></a>
-<!----- END GHOST DOCS BADGES ----->
 
+<a href="https://npmjs.com/package/@jill64/sve-loading-spinners"><img src="https://img.shields.io/npm/v/@jill64/sve-loading-spinners" alt="npm-version" /></a> <a href="https://npmjs.com/package/@jill64/sve-loading-spinners"><img src="https://img.shields.io/npm/l/@jill64/sve-loading-spinners" alt="npm-license" /></a> <a href="https://npmjs.com/package/@jill64/sve-loading-spinners"><img src="https://img.shields.io/npm/dm/@jill64/sve-loading-spinners" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/@jill64/sve-loading-spinners"><img src="https://img.shields.io/bundlephobia/min/@jill64/sve-loading-spinners" alt="npm-min-size" /></a>
+
+<!----- END GHOST DOCS BADGES ----->
 
 Loading spinners for svelte
 
@@ -21,21 +21,20 @@ npm i -D @jill64/svelte-loading-spinners
 ## Usage
 
 Import `navigating` from `$app/stores`.
-When navigating starts, it's value is a Navigation object with from, to, type and (if type === 'popstate') delta properties. When navigating finishes, its value reverts to null. 
+When navigating starts, it's value is a Navigation object with from, to, type and (if type === 'popstate') delta properties. When navigating finishes, its value reverts to null.
 
 Read More: [Sveltekit Docs](https://kit.svelte.dev/docs/modules#$app-stores-navigating) and [Stackoverflow](https://stackoverflow.com/questions/70218035/sveltekit-loading-indicator-when-a-page-load-time-threshold-is-exceeded)
-
 
 By using an `{#if $navigating}` this allows us to show the loading animation when the page is loading and stop once it's fully rendered.
 
 ```svelte
 <script>
-	import { Jumper } from 'svelte-loading-spinners';
-	import { navigating } from '$app/stores'
+  import { Jumper } from 'svelte-loading-spinners'
+  import { navigating } from '$app/stores'
 </script>
 
 {#if $navigating}
-	<Jumper size="60" color="#FF3E00" unit="px" duration="1s" />
+  <Jumper size="60" color="#FF3E00" unit="px" duration="1s" />
 {/if}
 ```
 
