@@ -1,27 +1,25 @@
 {
   "name": "@jill64/sve-loading-spinners",
-  "description": "Loading spinners for svelte",
+  "description": "A collection of loading spinner components for SvelteJs",
   "version": "0.3.6",
   "files": [
     "dist"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jill64/svelte-loading-spinners.git"
+    "url": "https://github.com/jill64/svelte-loading-spinners.git",
+    "image": "https://opengraph.githubassets.com/2ab5da32a82490d5bfb58baf9fe06cabe843962eb15f1efd89c4f6da0422f248/jill64/svelte-loading-spinners"
   },
-  "bugs": {
-    "url": "https://github.com/jill64/svelte-loading-spinners/issues"
-  },
+  "bugs": "https://github.com/jill64/svelte-loading-spinners/issues",
   "homepage": "https://github.com/jill64/svelte-loading-spinners#readme",
   "license": "MIT",
   "author": {
-    "name": "jill64"
+    "name": "jill64",
+    "email": "intents.turrets0h@icloud.com",
+    "url": "https://github.com/jill64",
+    "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
   },
-  "keywords": [
-    "svelte",
-    "loading",
-    "spinner"
-  ],
+  "keywords": [],
   "publishConfig": {
     "access": "public"
   },
