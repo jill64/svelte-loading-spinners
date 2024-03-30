@@ -8,7 +8,7 @@
 
 <!----- END GHOST DOCS BADGES ----->
 
-Loading spinners for svelte
+A collection of loading spinner components for SvelteJs
 
 <!----- END GHOST DOCS HEADER ----->
 
