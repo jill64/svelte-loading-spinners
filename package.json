@@ -1,5 +1,5 @@
 {
-  "name": "@jill64/sve-loading-spinners",
+  "name": "@jill64/svelte-loading-spinners",
   "description": "A collection of loading spinner components for SvelteJs",
   "version": "0.4.0",
   "files": [
