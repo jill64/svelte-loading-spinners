@@ -1,17 +1,10 @@
-# svelte-loading-spinners
-
-> collection of loading spinners with Svelte.js
+<!----- BEGIN GHOST DOCS HEADER ----->
+<!----- END GHOST DOCS HEADER ----->
 
 ## Installation
 
 ```bash
-npm i --save-dev svelte-loading-spinners
-```
-
-or
-
-```bash
-yarn add -D svelte-loading-spinners
+npm i -D @jill64/svelte-loading-spinners
 ```
 
 ## Usage

@@ -27,12 +27,12 @@
 		Puff,
 		ArrowDown,
 		ArrowUp
-	} from '../lib';
+	} from '$lib';
+	
 	let color = '#FF3E00';
 	let size = '60';
 	let unit = 'px';
 	let colorPicker: HTMLInputElement;
-	//let pause: boolean = false;
 
 	function triggerColorPicker() {
 		colorPicker.click();
