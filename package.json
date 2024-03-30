@@ -8,7 +8,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-loading-spinners.git",
-    "image": "https://opengraph.githubassets.com/2ab5da32a82490d5bfb58baf9fe06cabe843962eb15f1efd89c4f6da0422f248/jill64/svelte-loading-spinners"
+    "image": "https://opengraph.githubassets.com/03c66e8e518f30751c1fa1c7f9e4aded817d2c62443574ff1cdfe93af14121db/jill64/svelte-loading-spinners"
   },
   "bugs": "https://github.com/jill64/svelte-loading-spinners/issues",
   "homepage": "https://github.com/jill64/svelte-loading-spinners#readme",
@@ -19,7 +19,11 @@
     "url": "https://github.com/jill64",
     "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
   },
-  "keywords": [],
+  "keywords": [
+    "css",
+    "loading-spinner",
+    "svelte"
+  ],
   "publishConfig": {
     "access": "public"
   },
