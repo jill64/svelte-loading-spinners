@@ -9,7 +9,7 @@
 
 <div
   class="wrapper"
-  style="--size: {size}{unit}; --color: {color}; --duration: {duration}; --duration: {duration};"
+  style="--size: {size}{unit}; --color: {color}; --duration: {duration};"
 >
   <div class="circle" class:pause-animation={pause} />
 </div>
